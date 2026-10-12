@@ -1,12 +1,6 @@
 # Student Score Calculator
 A simple web application using HTML, CSS, and JavaScript. It automatically calculates student totals and letter grades in real-time as scores are entered.
 
-## Project Details
-
-* **Course/Subject:** [Insert Course Name]
-* **Developer/Student Name:** [Insert Your Name]
-* **Student ID:** [Insert Your ID]
-
 ## Features
 
 * Interactive table featuring 5 students.
