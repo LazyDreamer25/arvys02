@@ -3,64 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Student Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
 
-    <div class="main">
+    <div class="container">
+        <h1>Student Score Calculator</h1>
+        
         <table>
-            <caption>Olodo Academy</caption>
-            <tr>
-                <th>CA 1</th>
-                <th>CA 2</th>
-                <th>CA 3</th>
-                <th>Exam</th>
-                <th>Total</th>
-                <th>Grade</th>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>23</td>
-                <td>53</td>
-                <td>B</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>CA 1 (Max 10)</th>
+                    <th>CA 2 (Max 10)</th>
+                    <th>CA 3 (Max 10)</th>
+                    <th>Exam (Max 70)</th>
+                    <th>Total (100)</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+                <tr class="student-row">
+                    <td>John Doe</td>
+                    <td><input type="number" class="ca1" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca2" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca3" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="exam" min="0" max="70" value="0"></td>
+                    <td class="total">0</td>
+                    <td class="grade">F</td>
+                </tr>
+             
+                <tr class="student-row">
+                    <td>Jane Smith</td>
+                    <td><input type="number" class="ca1" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca2" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca3" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="exam" min="0" max="70" value="0"></td>
+                    <td class="total">0</td>
+                    <td class="grade">F</td>
+                </tr>
+             
+                <tr class="student-row">
+                    <td>Mark Johnson</td>
+                    <td><input type="number" class="ca1" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca2" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca3" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="exam" min="0" max="70" value="0"></td>
+                    <td class="total">0</td>
+                    <td class="grade">F</td>
+                </tr>
+         
+                <tr class="student-row">
+                    <td>Sarah Brown</td>
+                    <td><input type="number" class="ca1" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca2" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca3" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="exam" min="0" max="70" value="0"></td>
+                    <td class="total">0</td>
+                    <td class="grade">F</td>
+                </tr>
+                
+                <tr class="student-row">
+                    <td>Michael Lee</td>
+                    <td><input type="number" class="ca1" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca2" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="ca3" min="0" max="10" value="0"></td>
+                    <td><input type="number" class="exam" min="0" max="70" value="0"></td>
+                    <td class="total">0</td>
+                    <td class="grade">F</td>
+                </tr>
+            </tbody>
         </table>
     </div>
+
 </body>
 </html>
